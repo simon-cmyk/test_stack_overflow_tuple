@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/simon/Desktop/test_stack_overflow_tuple/foo.cpp
+foo.h
+/home/simon/Desktop/test_stack_overflow_tuple/foo.h
+tuple
+-
+
+/home/simon/Desktop/test_stack_overflow_tuple/foo.h
+tuple
+-
+
+/home/simon/Desktop/test_stack_overflow_tuple/main.cpp
+foo.h
+/home/simon/Desktop/test_stack_overflow_tuple/foo.h
+iostream
+-
+
